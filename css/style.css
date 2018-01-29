@@ -1,0 +1,31 @@
+@charset "utf-8";
+table {
+	font-size: 20px;
+	font-weight: bold;
+}
+td:first-child {
+	background-color: #ff0004;
+	color: #FFFFFF;
+}
+tr:nth-child(even) td:nth-child(1n+2) {
+	background-color: #EEEEEE;
+}
+tr:nth-last-child(1n+7) td:nth-child(2) {
+	color: #ff0004;
+}
+tr:nth-last-child(1n+7) td:nth-child(2) a {
+	color: #ff0004;
+}
+tr:nth-child(1n+5) td:nth-child(2) {
+	color: #030EEB;
+}
+tr:nth-child(1n+5) td:nth-child(2) a {
+	color: #030EEB;
+}
+td:nth-child(2)::first-letter {
+	font-size: 45px;
+	vertical-align: text-top;
+}
+input:checked + label {
+	color: #ff0004;
+}
